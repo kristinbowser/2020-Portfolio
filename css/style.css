@@ -17,6 +17,13 @@ html {
     cursor: pointer;
     text-decoration: none;
   }
+  .navItem {
+    font-family: 'Shrikhand', cursive, serif;
+    color: #E73D2C;
+  }
+  .navItem:hover {
+    color: #01989E;
+  }
   .logo {
     display: flex;
     justify-content: flex-start;
@@ -27,5 +34,6 @@ html {
     margin: 15px;
     cursor: pointer;
   }
+ 
 
  
