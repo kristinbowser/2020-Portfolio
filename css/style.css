@@ -32,8 +32,78 @@ html {
   }
   .logo img {
     margin: 15px;
+    max-width: 100px;
     cursor: pointer;
   }
+ .icons {
+     padding: 20px;
+
+ }
+
+ #heroGrid {
+     display: grid;
+     grid-template-columns: 65% 35%;
+     grid-template-rows: 25% 25% 25% 25%;
+     grid-column-gap: 5px;
+     overflow: hidden;
+     max-height: 500px;
+     margin: 10%;
+ }
+
+ #helloWorldBox {
+     grid-row-start: 1;
+     grid-row-end: span 2;
+     grid-column-start: 1;
+     grid-column-end: auto;
+ }
+
+ #aboutMe {
+     grid-row-start: auto;
+     grid-column-start: 1;
+     grid-column-end: auto;
+     padding-right: 10%;
+ }
  
+ #kristinPic {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: auto;
+    max-height: 70%;
+    width: 90%;
+ }
+
+ #letsGetSocial {
+     grid-row-start: auto;
+     grid-row-end: auto;
+     grid-column-start: 2;
+     grid-column-end: auto;
+     margin-right: 10%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto auto;
+     grid-template-areas: 
+     "social social social social"
+     "fb ig be lki";
+ }
+#social {
+    grid-area: social;
+}
+
+ #fb {
+     grid-area: fb;
+ }
+
+ #ig {
+     grid-area: ig;
+ }
+
+ #be {
+     grid-area: be;
+ }
+
+ #lki {
+     grid-area: lki;
+ }
 
  
