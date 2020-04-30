@@ -149,7 +149,7 @@ p {
 
  #fb {
      grid-area: fb;
-     /* background-image: url(/Images/Icon\ awesome-facebook-f.svg); */
+     height: fit-content;
  }
  #fb:hover {
     grid-area: fb;
@@ -160,26 +160,27 @@ p {
  #ig {
      grid-area: ig;
  }
+ 
+ #ig:hover {
+    grid-area: ig;
+    fill: #E73D2C;
+}
 
  #be {
      grid-area: be;
  }
+ 
+ #be:hover {
+    grid-area: be;
+    fill: #E73D2C;
+}
 
  #lki {
      grid-area: lki;
  }
 
-
-
-#ig:hover {
-    grid-area: ig;
-}
-
-#be:hover {
-    grid-area: be;
-}
-
 #lki:hover {
     grid-area: lki;
+    fill: #E73D2C;
 }
  
