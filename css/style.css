@@ -1,6 +1,23 @@
 html {
     background-color: #EAE5DF;
 }
+h1 {
+    font-family: 'Shrikhand', cursive, serif;
+    color: #01989E;
+    font-size: 250%;
+}
+
+h3 {
+    font-family: 'Shrikhand', cursive, serif;
+    color: #01989E;
+    font-size: 160%;
+}
+
+p {
+    font-family: 'Aleo', sans-serif;
+    color: #01989E;
+    font-size: large;
+}
 
 #navBar {
     display: flex;
@@ -9,9 +26,9 @@ html {
   }
   #navigation {
     display: flex;
-    width: 50%;
+    width: 70%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
   }
   #navigation p {
     cursor: pointer;
@@ -20,15 +37,17 @@ html {
   .navItem {
     font-family: 'Shrikhand', cursive, serif;
     color: #E73D2C;
+    padding-right: 35px;
   }
   .navItem:hover {
     color: #01989E;
   }
   .logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 25%;
+    margin-left: -3%;
   }
   .logo img {
     margin: 15px;
@@ -44,10 +63,11 @@ html {
      display: grid;
      grid-template-columns: 65% 35%;
      grid-template-rows: 25% 25% 25% 25%;
-     grid-column-gap: 5px;
+     grid-column-gap: 10px;
      overflow: hidden;
-     max-height: 500px;
+     max-height: 650px;
      margin: 10%;
+     margin-top: 0%;
  }
 
  #helloWorldBox {
@@ -55,6 +75,17 @@ html {
      grid-row-end: span 2;
      grid-column-start: 1;
      grid-column-end: auto;
+     background-color: #F6C8C9;
+     padding: 2%;
+
+ }
+
+ #helloWorldBox h1 {
+     text-align: center;
+ }
+ 
+ #helloWorldBox h3 {
+     text-align: center;
  }
 
  #aboutMe {
@@ -63,6 +94,16 @@ html {
      grid-column-end: auto;
      padding-right: 10%;
  }
+
+ #downloadResume {
+    display: flex;
+    margin: auto;
+    font-family: 'Aleo', sans-serif;
+    color: #01989E;
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+}
  
  #kristinPic {
     grid-row-start: 1;
@@ -71,6 +112,7 @@ html {
     grid-column-end: auto;
     max-height: 70%;
     width: 90%;
+    border: 10px solid #01989E;
  }
 
  #letsGetSocial {
@@ -88,6 +130,13 @@ html {
  }
 #social {
     grid-area: social;
+    font-family: 'Shrikhand', cursive, serif;
+    color: #E73D2C;
+}
+
+.iconImg {
+    height: 50px;
+    width: 50px;
 }
 
  #fb {
