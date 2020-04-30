@@ -5,18 +5,21 @@ h1 {
     font-family: 'Shrikhand', cursive, serif;
     color: #01989E;
     font-size: 250%;
+    letter-spacing: 2px;
 }
 
 h3 {
     font-family: 'Shrikhand', cursive, serif;
     color: #01989E;
     font-size: 160%;
+    letter-spacing: 2px;
 }
 
 p {
     font-family: 'Aleo', sans-serif;
     color: #01989E;
-    font-size: large;
+    font-size: medium;
+    margin-top: -3%;
 }
 
 #navBar {
@@ -65,7 +68,7 @@ p {
      grid-template-rows: 25% 25% 25% 25%;
      grid-column-gap: 10px;
      overflow: hidden;
-     max-height: 650px;
+     max-height: 660px;
      margin: 10%;
      margin-top: 0%;
  }
@@ -86,6 +89,7 @@ p {
  
  #helloWorldBox h3 {
      text-align: center;
+     align-content: start;
  }
 
  #aboutMe {
@@ -127,21 +131,31 @@ p {
      grid-template-areas: 
      "social social social social"
      "fb ig be lki";
+     align-items: end;
  }
 #social {
     grid-area: social;
     font-family: 'Shrikhand', cursive, serif;
     color: #E73D2C;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .iconImg {
     height: 50px;
     width: 50px;
+    align-items: end;
 }
 
  #fb {
      grid-area: fb;
+     /* background-image: url(/Images/Icon\ awesome-facebook-f.svg); */
  }
+ #fb:hover {
+    grid-area: fb;
+    fill: #E73D2C;
+
+}
 
  #ig {
      grid-area: ig;
@@ -155,4 +169,17 @@ p {
      grid-area: lki;
  }
 
+
+
+#ig:hover {
+    grid-area: ig;
+}
+
+#be:hover {
+    grid-area: be;
+}
+
+#lki:hover {
+    grid-area: lki;
+}
  
