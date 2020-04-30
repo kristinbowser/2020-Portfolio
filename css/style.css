@@ -20,6 +20,7 @@ p {
     color: #01989E;
     font-size: medium;
     margin-top: -3%;
+    line-height: 150%;
 }
 
 #navBar {
@@ -68,7 +69,7 @@ p {
      grid-template-rows: 25% 25% 25% 25%;
      grid-column-gap: 10px;
      overflow: hidden;
-     max-height: 660px;
+     max-height: 705px;
      margin: 10%;
      margin-top: 0%;
  }
@@ -149,7 +150,7 @@ p {
 
  #fb {
      grid-area: fb;
-     height: fit-content;
+     
  }
  #fb:hover {
     grid-area: fb;
