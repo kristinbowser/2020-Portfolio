@@ -109,6 +109,11 @@ p {
     font-weight: bold;
     height: 50px;
 }
+
+#downloadResume:hover {
+    color: #EAE5DF;
+    background-color: #01989E;
+}
  
  #kristinPic {
     grid-row-start: 1;
@@ -138,20 +143,23 @@ p {
     grid-area: social;
     font-family: 'Shrikhand', cursive, serif;
     color: #E73D2C;
+    font-size: x-large;
     text-align: center;
     letter-spacing: 2px;
+    margin-left: 10px;
 }
 
-.iconImg {
-    height: 50px;
-    width: 50px;
-    align-items: end;
+svg {
+    width: 45px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: -20px;
 }
 
  #fb {
      grid-area: fb;
-     
  }
+
  #fb:hover {
     grid-area: fb;
     fill: #E73D2C;
