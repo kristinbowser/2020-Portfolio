@@ -80,9 +80,15 @@ p {
      grid-column-start: 1;
      grid-column-end: auto;
      background-color: #F6C8C9;
-     padding: 2%;
-
- }
+     padding: 4%;
+     border: 8px solid #01989E;
+     box-shadow: 3px 3px 2px #E73D2C;
+     animation: shadow 5s infinite;
+}
+      
+      @keyframes shadow {
+        50% {box-shadow: 3px 3px 2px rgb(240, 153, 145);}
+      }
 
  #helloWorldBox h1 {
      text-align: center;
@@ -122,8 +128,15 @@ p {
     grid-column-end: auto;
     max-height: 70%;
     width: 90%;
-    border: 10px solid #01989E;
- }
+    padding: 8px;
+    background-color: #01989E;
+    box-shadow: 3px 3px 2px #E73D2C;
+    animation: shadow 5s infinite;
+}
+     
+     @keyframes shadow {
+       50% {box-shadow: 3px 3px 2px rgb(240, 153, 145);}
+     }
 
  #letsGetSocial {
      grid-row-start: auto;
