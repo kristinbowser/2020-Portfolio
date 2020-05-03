@@ -68,7 +68,7 @@ p {
      grid-template-columns: 65% 35%;
      grid-template-rows: 25% 25% 25% 25%;
      grid-column-gap: 10px;
-     overflow: hidden;
+     /* overflow: hidden; */
      max-height: 705px;
      margin: 10%;
      margin-top: 0%;
@@ -81,13 +81,14 @@ p {
      grid-column-end: auto;
      background-color: #F6C8C9;
      padding: 4%;
-     border: 8px solid #01989E;
-     box-shadow: 3px 3px 2px #E73D2C;
+     margin-right: 4%;
+     border: 5px solid #01989E;
+     box-shadow: -3px -3px 2px #E73D2C;
      animation: shadow 5s infinite;
 }
       
-      @keyframes shadow {
-        50% {box-shadow: 3px 3px 2px rgb(240, 153, 145);}
+    @keyframes shadow {
+        50% {box-shadow: -3px -3px 2px rgb(240, 153, 145);}
       }
 
  #helloWorldBox h1 {
@@ -128,14 +129,14 @@ p {
     grid-column-end: auto;
     max-height: 70%;
     width: 90%;
-    padding: 8px;
+    padding: 5px;
     background-color: #01989E;
     box-shadow: 3px 3px 2px #E73D2C;
     animation: shadow 5s infinite;
 }
      
      @keyframes shadow {
-       50% {box-shadow: 3px 3px 2px rgb(240, 153, 145);}
+       50% {box-shadow: -3px -3px 2px rgb(240, 153, 145);}
      }
 
  #letsGetSocial {
