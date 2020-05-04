@@ -8,6 +8,8 @@
         rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
 </head>
 
 <body>
@@ -16,7 +18,7 @@
         <div class="logo">
             <img src="images/logo.png">
         </div>
-        <div id="navigation">
+        <div id="navigation" class="nonBS">
             <p class="navItem">About Me</p>
             <p class="navItem">My UX Toolkit</p>
             <p class="navItem">Case Study #1</p>
@@ -30,9 +32,15 @@
             <div id="helloWorldBox">
                 <h1>Hello, World!<br>I'm Kristin Bowser.</h1>
                 <h3>UX Researcher, Designer, &<br>Human-Behavior Enthusiast</h3>
-                <button id="downloadResume">Download Resume</button>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Download Me!</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a class="link" href="#">Résumé</a>
+                      <a class="link" href="#">Portfolio Deck</a>
+                    </div>
+                  </div>
             </div>
-            <div id="aboutMe">
+            <div id="aboutMe" class=nonBS>
                 <h1>About Me</h1>
                 <p>I’m a User Experience Researcher leveraging a background in L&D and
                     communication to build a career in UX. I recently earned a
@@ -103,8 +111,17 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="JS/index.js"></script>
+    <!-- <section id="skillsArea">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+    </section> -->
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -114,6 +131,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="JS/index.js"></script>
 </body>
 
 </html>
