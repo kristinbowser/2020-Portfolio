@@ -1,21 +1,21 @@
 html {
     background-color: #EAE5DF;
 }
-h1 {
+#aboutMe h1 {
     font-family: 'Shrikhand', cursive, serif;
     color: #01989E;
     font-size: 250%;
     letter-spacing: 2px;
 }
 
-h3 {
+#aboutMe h3 {
     font-family: 'Shrikhand', cursive, serif;
     color: #01989E;
     font-size: 160%;
     letter-spacing: 2px;
 }
 
-p {
+#aboutMe p {
     font-family: 'Aleo', sans-serif;
     color: #01989E;
     font-size: medium;
@@ -93,11 +93,20 @@ p {
 
  #helloWorldBox h1 {
      text-align: center;
+     font-family: 'Shrikhand', cursive, serif;
+    color: #01989E;
+    font-size: 250%;
+    letter-spacing: 2px;
+     
  }
  
  #helloWorldBox h3 {
      text-align: center;
      align-content: start;
+     font-family: 'Shrikhand', cursive, serif;
+    color: #01989E;
+    font-size: 160%;
+    letter-spacing: 2px;
  }
 
  #aboutMe {
@@ -107,20 +116,49 @@ p {
      padding-right: 10%;
  }
 
- #downloadResume {
+ .dropbtn {
     display: flex;
     margin: auto;
     font-family: 'Aleo', sans-serif;
     color: #01989E;
     font-size: large;
-    font-weight: bold;
     height: 50px;
 }
-
-#downloadResume:hover {
+.dropbtn:hover {
     color: #EAE5DF;
     background-color: #01989E;
 }
+
+.link {
+    display: none;
+}
+
+/* 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover, a:focus {
+    background-color: #01989E;
+    color: #EAE5DF;
+}    */
  
  #kristinPic {
     grid-row-start: 1;
